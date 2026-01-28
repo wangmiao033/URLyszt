@@ -2,8 +2,30 @@
 
 ## 文件说明
 
+- `index.html` - 隐私政策主页（访问根URL时显示）
 - `privacy-policy.html` - 隐私政策HTML文档
+- `vercel.json` - Vercel部署配置文件
 - `deploy.ps1` - PowerShell部署脚本（可选使用）
+
+## Vercel 部署（当前使用）
+
+**您的隐私政策URL：** https://ur-lyszt.vercel.app/
+
+访问以下URL都可以查看隐私政策：
+- https://ur-lyszt.vercel.app/ （根URL）
+- https://ur-lyszt.vercel.app/privacy-policy.html
+
+### 更新部署
+
+如果您已经连接到Vercel，只需将更改推送到GitHub仓库，Vercel会自动重新部署：
+
+```powershell
+git add .
+git commit -m "更新隐私政策"
+git push
+```
+
+或者直接在Vercel Dashboard中重新部署。
 
 ## 部署方式
 

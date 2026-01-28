@@ -1,0 +1,43 @@
+========================================
+快速上传文件到GitHub
+========================================
+
+方法一：使用PowerShell脚本（推荐）
+----------------------------------------
+1. 在项目文件夹中，右键点击空白处
+2. 选择"在终端中打开"或"Open in Terminal"
+3. 执行以下命令：
+   .\upload.ps1
+
+方法二：手动执行Git命令
+----------------------------------------
+在PowerShell或Git Bash中执行：
+
+# 1. 进入项目目录
+cd "H:\Y云上征途ios\URL"
+
+# 2. 添加所有文件
+git add .
+
+# 3. 提交更改
+git commit -m "添加index.html和vercel.json配置"
+
+# 4. 推送到GitHub
+git push origin main
+
+如果main分支不存在，使用：
+git push origin master
+
+方法三：使用GitHub网页上传
+----------------------------------------
+1. 访问：https://github.com/wangmiao033/URLyszt
+2. 点击 "Add file" -> "Upload files"
+3. 拖拽以下文件到页面：
+   - index.html
+   - vercel.json
+4. 点击 "Commit changes"
+
+========================================
+上传后，您的隐私政策URL：
+https://ur-lyszt.vercel.app/
+========================================
